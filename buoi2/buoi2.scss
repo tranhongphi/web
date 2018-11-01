@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.im {
+    max-width: 100%;
+    height: auto;
+}
+
+.header {
+    .menu {
+        width: 100%;
+        background-color: white;
+        box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+        position: fixed;
+        top: 0;
+        z-index: 1;
+        .text {
+            font-size: 15px;
+            color: black;
+            letter-spacing: 4px;
+            text-decoration: none;
+            padding: 8px 16px;
+            width: auto;
+            &:hover {
+                background-color: #ccc;
+            }
+        }
+        .pd {
+            padding: 8px 16px;
+        }
+    }
+    .image {
+        position: relative;
+        .tx {
+            position: absolute;
+            bottom: 5%;
+            left: 5%;
+            font-family: "Playfair Display";
+            font-weight: 400;
+        }
+    }
+}
+
+.content1 {
+    .im {
+        opacity: 0.75;
+    }
+    .center {
+        text-align: center;
+        font-family: "Playfair Display";
+        letter-spacing: 5px;
+        line-height: 1.5;
+    }
+    .tx2 {
+        font-size: 18px;
+    }
+    .tx3 {
+        font-size: 18px;
+        color: #757575;
+    }
+    h4 {
+        font-weight: 400;
+        margin: 10px 0;
+        font-size: 20px;
+        line-height: 1.5;
+        letter-spacing: 5px;
+    }
+    .tx4 {
+        color: #757575;
+        font-size: 15px;
+        line-height: 1.5;
+    }
+    h1 {
+        font-family: "Playfair Display";
+        letter-spacing: 5px;
+        font-weight: 400;
+        margin: 10px 0;
+        line-height: 1.5;
+    }
+    .tx5 {
+        font-size: 15px;
+        line-height: 1.5;
+    }
+    .tx6 {
+        font-size: 18px;
+        line-height: 1.5;
+        font-weight: bold;
+        color: #607d8b;
+    }
+    .style {
+        padding: 16px 8px;
+        display: block;
+        border: none;
+        border-bottom: 1px solid #ccc;
+        width: 100%;
+    }
+    .style2 {
+        color: #000;
+        background-color: #f1f1f1;
+        padding: 8px 16px;
+        cursor: pointer;
+        border: none;
+        &:hover {
+            background-color: #ccc;
+        }
+    }
+}
+
+.footer {
+    background-color: #f1f1f1;
+    color: #000;
+    .ft {
+        padding: 32px 0px;
+    }
+    p {
+        padding: 5px;
+        font-size: 15px;
+        a {
+            text-decoration: underline;
+            color: #000;
+            &:hover {
+                color: green;
+            }
+        }
+    }
+}
